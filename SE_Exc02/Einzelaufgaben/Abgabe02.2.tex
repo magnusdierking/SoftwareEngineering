@@ -17,24 +17,34 @@
 	Stakeholders and Interests & - Kund/in: Möchte Ticket(s) einer Veranstaltung kaufen \\
 	                             & - Ticketagentur: Verkauf der Tickets, Konsistenter Datenbestand \\
 	\hline
-	Minimal Guarantees & Abbuchung erfolgt nur , wenn Kauf bestätigt wurde \\
+	Minimal Guarantees & Abbuchung erfolgt nur, wenn Verkauf erfolgreich war. \\
 	\hline
-	Success Guarantees & - Aktualisieren der Bestände\\
-	                   & - Anzeigen des erfolgreichen Kaufabschlusses \\
-	                   & - Abbuchung des fälligen Betrages \\
+	Success Guarantees 	& -System zeigt Zusammenfassung der Veranstaltung und Bestellformular an \\
+						& -System überprüft Bestellung, und Überprüfung ist erfolgreich. \\
+						& -Zusenden der Tickets, Aktualisierung des Ticketbestandes und Abbuchung des geschuldeten Betrages\\
+
+	
+	
+%	
+%	& - Aktualisieren der Bestände\\
+%	                   & - Anzeigen des erfolgreichen Kaufabschlusses \\
+%	                   & - Abbuchung des fälligen Betrages \\
 	\hline
 	Primary Actor & Kunde \\
 	\hline
 	Precondition & - Kunde lässt sich Ticketübersicht anzeigen \\
 	             & - Kunde beschließt Kauf \\
-	             & - Kunde füllt Bestellformular aus \\ 
-	             & - Kunde bestätigt Kauf \\
+
 	             \hline
-	Main Success Scenario &  Kunde wählt Aktion "Kaufen" aus \\
+	Main Success Scenario & 1. Kunde entschließt sich zum Kauf und wählt Aktion Kaufen aus \\
+						& 2. Das Bestellformular wird ausgefüllt und abgeschickt.\\
+						& 3. Prüfung der Bestellung erfolgreich.\\
+						& 4. Verkauf wird ausgeführt(Zusenden des Tickets,aktualisieren der Bestände, Abbuchen des Betrags)\\
+						& 5. Anzeigen des erfolgreichen Kaufabschlusses.\\
 	\hline
-	Extensions & 2a: \\
-	           & 2b: \\
-	           & 3a: \\
-	           & 3b: \\
+	Extensions & 2a: Bis zur Bestätigung kann der Kaufvorgang jederzeit abgebrochen werden.\\
+	           & 2b: Wird der Kauf abgebrochen, wird wieder die Veranstaltungsübersicht angezeigt.\\
+	           & 3a: Ist die Überprüfung nicht erfolgreich, so wird der Kaufvorgang abgebrochen.\\
+	           & 3b: Es wir in einer Meldung der Grund für die fehlgeschlagene Überprüfung angezeigt, und die Seite mit dem Bestellformular wird angezeigt. \\
 	\hline           
 \end{tabular} 
