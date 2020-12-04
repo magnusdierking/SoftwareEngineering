@@ -4,16 +4,16 @@
 		\hline
 		Model/ Eignschaften & 1.Fehlertoleranz & 2. Parallelisierbarkeit  \\
 		\hline 
-		Layered & \underline{Schlecht:} Lange Startzeit &  \underline{Schlecht:} Parallelisierung von der Architektur nicht direkt unterstützt \\
+		Layered & \underline{Schlecht:} Lange Startzeit der Schichten führt zu langer Ausfallzeit &  \underline{Schlecht:} Parallelisierung von der Architektur nicht direkt unterstützt. \\
 		\hline 
 		Model-View-Controller& \underline{Schlecht:}
 		Alle drei Teile sind für den betrieb wichtig. Ohne View keine befehle an Controller und ohne Controller keine Änderungen im Modell und ohne Modell keine Daten.
 		\underline{Mittel:} Bei mehreren Views kann eine Ausfallen aber die anderen die mit dem Model gekoppelt sind laufen weiter
 		
-				 & \underline{Mittel:}\\
+				 & \underline{Mittel:} Auf ein Modell können mehrere Views zugreifen und upgedated werden. Modell kann auch wiederverwendet werden für andere Controler oder Views.\\
 		\hline 
 		Service Based& 
-		\underline{Gut:} & \underline{Gut:} \\
+		\underline{Gut:} Bei Ausfall fällt nur ein einzelner Service aus und dieser kann schnell wieder gestartet werden & \underline{Gut:} Aufgaben sind schon in kleine Pakete Aufgeteil. Unterschiedliche Services können so leicht parallelisiert werden. \\
 		\hline 
 	\end{tabular}
 \end{center}

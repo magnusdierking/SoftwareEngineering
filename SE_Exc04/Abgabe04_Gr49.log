@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7400 64-bit)  (format=lualatex 2020.6.19)  4 DEC 2020 16:58
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7400 64-bit)  (format=lualatex 2020.6.19)  4 DEC 2020 17:07
  restricted system commands enabled.
 **Abgabe04_Gr49.tex
 (./Abgabe04_Gr49.tex
@@ -2294,7 +2294,7 @@ Here is how much of LuaTeX's memory you used:
 25 penalty, 2 margin_kern, 138 glyph, 158 attribute, 70 glue_spec, 86 attribute_
 list, 1 write, 20 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nod
 es
-   avail lists: 1:7,2:541,3:68,4:29,5:161,6:43,7:876,8:3,9:295,10:11,11:70
+   avail lists: 1:7,2:553,3:76,4:29,5:233,6:43,7:1347,8:3,9:305,10:11,11:121
  50109 multiletter control sequences out of 65536+200000
  142 fonts using 20151443 bytes
  79i,20n,124p,10158b,2281s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2303,7 +2303,7 @@ oboto-regular.otf><c:/users/joni-/appdata/local/programs/miktex 2.9/fonts/openty
 pe/public/xcharter/xcharter-roman.otf><c:/users/joni-/appdata/local/programs/mik
 tex 2.9/fonts/opentype/public/xcharter/xcharter-bold.otf><c:/users/joni-/appdata
 /local/programs/miktex 2.9/fonts/opentype/google/roboto/roboto-bold.otf>
-Output written on Abgabe04_Gr49.pdf (3 pages, 527557 bytes).
+Output written on Abgabe04_Gr49.pdf (3 pages, 528246 bytes).
 
 PDF statistics: 52 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 131072)
