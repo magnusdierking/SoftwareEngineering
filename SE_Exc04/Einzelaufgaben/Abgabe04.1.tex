@@ -2,18 +2,18 @@
 \begin{center}
 	\begin{tabular}	{|m{4cm}|m{6cm}|m{6cm}|}
 		\hline
-		Model/ Eignschaften & 1.Fehlertoleranz & 2. Parallelisierbarkeit  \\
+		Model/ Eigenschaften & 1.Fehlertoleranz & 2. Parallelisierbarkeit  \\
 		\hline 
-		Layered & \underline{Schlecht:} Lange Startzeit der Schichten führt zu langer Ausfallzeit &  \underline{Schlecht:} Parallelisierung von der Architektur nicht direkt unterstützt. \\
+		Layered & \underline{Schlecht:} Lange Startzeit der Schichten führt zu langer Ausfallzeit. Der Absturz einzelner Schichten kann das gesamte System lahmlegen, da diese aufeinander zugreifen. einzige Ausnahme hiervon könnte sein, wenn die Anfrage an das System nicht tief genug geht, um die abgestürzte Schicht zu erreichen. &  \underline{Schlecht:} Parallelisierung von der Architektur nicht direkt unterstützt. Die Schichten übernehmen für sich ganze Aufgabenbereiche und bauen aufeinander auf.   \\
 		\hline 
-		Model-View-Controller& \underline{Schlecht:}
-		Alle drei Teile sind für den betrieb wichtig. Ohne View keine befehle an Controller und ohne Controller keine Änderungen im Modell und ohne Modell keine Daten.
-		\underline{Mittel:} Bei mehreren Views kann eine Ausfallen aber die anderen die mit dem Model gekoppelt sind laufen weiter
+		Model-View-Controller& \underline{Mittel:}
+		Alle drei Teile sind für den Betrieb wichtig. Ohne View keine Befehle an den Controller, ohne Controller keine Änderungen am Modell und ohne Modell keine Daten.
+	    Bei mehreren Views kann eine Ausfallen einzelner jedoch das System unbeeinflusst lassen, da dies keine Auswirkungen auf die anderen Views und deren Kommunikation mit dem Controller hat.  
 		
 				 & \underline{Mittel:} Auf ein Modell können mehrere Views zugreifen und upgedated werden. Modell kann auch wiederverwendet werden für andere Controler oder Views.\\
 		\hline 
 		Service Based& 
-		\underline{Gut:} Bei Ausfall fällt nur ein einzelner Service aus und dieser kann schnell wieder gestartet werden & \underline{Gut:} Aufgaben sind schon in kleine Pakete Aufgeteil. Unterschiedliche Services können so leicht parallelisiert werden. \\
+		\underline{Gut:} Bei Ausfall fällt ggfs. nur ein einzelner Service aus und dieser kann schnell wieder gestartet werden. Der Absturz beeinflusst nur den Teil des Systems, für den der Service relevant ist, während der von diesem unabhängige Bereich weiter funktioniert. & \underline{Gut:} Aufgaben sind schon in kleine Pakete aufgeteil. Unterschiedliche Services können so leicht parallelisiert werden. \\
 		\hline 
 	\end{tabular}
 \end{center}
