@@ -1,0 +1,9 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'Abgabe05_Gr49.blg'
+[94] biber-MSWIN64:322> INFO - === 
+[119] Biber.pm:415> INFO - Reading 'Abgabe05_Gr49.bcf'
+[251] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[261] Utils.pm:304> WARN - The file 'Abgabe05_Gr49.bcf' does not contain any citations!
+[278] bbl.pm:652> INFO - Writing 'Abgabe05_Gr49.bbl' with encoding 'UTF-8'
+[279] bbl.pm:755> INFO - Output to Abgabe05_Gr49.bbl
+[285] Biber.pm:128> INFO - WARNINGS: 1
