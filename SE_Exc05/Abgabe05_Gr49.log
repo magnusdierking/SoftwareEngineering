@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7400 64-bit)  (format=lualatex 2020.6.19)  14 DEC 2020 14:28
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7400 64-bit)  (format=lualatex 2020.6.19)  14 DEC 2020 14:32
  restricted system commands enabled.
 **Abgabe05_Gr49.tex
 (./Abgabe05_Gr49.tex
@@ -2237,20 +2237,20 @@ LaTeX Font Info:    Font shape `TU/Roboto(0)/b/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `TU/Roboto(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 2.
-<FlowChart.pdf, id=20, 702.625pt x 1144.275pt>
+<FlowChart.pdf, id=21, 702.625pt x 1144.275pt>
 File: FlowChart.pdf Graphic file (type pdf)
 <use FlowChart.pdf>
-Package luatex.def Info: FlowChart.pdf  used on input line 8.
+Package luatex.def Info: FlowChart.pdf  used on input line 9.
 (luatex.def)             Requested size: 409.72125pt x 667.27676pt.
 LaTeX Font Info:    Font shape `TU/RobotoSlab(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 9.
+(Font)              scaled to size 10.95pt on input line 10.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `RobotoSlab' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-LaTeX Warning: Float too large for page by 46.979pt on input line 11.
+LaTeX Warning: Float too large for page by 46.979pt on input line 12.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2314,7 +2314,7 @@ Here is how much of LuaTeX's memory you used:
 25 penalty, 2 margin_kern, 139 glyph, 162 attribute, 71 glue_spec, 88 attribute_
 list, 1 write, 20 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nod
 es
-   avail lists: 1:7,2:730,3:108,4:29,5:198,6:54,7:1259,8:24,9:285,10:5,11:99
+   avail lists: 1:7,2:751,3:118,4:29,5:207,6:56,7:1365,8:25,9:287,10:5,11:106
  50145 multiletter control sequences out of 65536+200000
  143 fonts using 20320635 bytes
  79i,20n,124p,10158b,2281s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2328,9 +2328,9 @@ boto-bold.otf><C:/Users/joni-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmmi10.pfb><C:/Users/joni-/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/joni-/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Abgabe05_Gr49.pdf (4 pages, 565954 bytes).
+Output written on Abgabe05_Gr49.pdf (4 pages, 566574 bytes).
 
-PDF statistics: 86 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 88 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 131072)
  11 words of extra memory for PDF output out of 10000 (max. 100000000)
 
