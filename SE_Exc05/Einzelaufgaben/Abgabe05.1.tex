@@ -7,7 +7,7 @@ Siehe Abbildung \ref{fig:flowChart}.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\textwidth, clip]{FlowChart.pdf}
-	\caption{Kontrollflussgraphe}
+	\caption{Kontrollflussgraph}
 	\label{fig:flowChart}
 \end{figure}
 \section*{c}
@@ -16,6 +16,7 @@ Für die zyklomatische Komplexität nach der Formel $ C=E-N+2P$ ergibt sich mit 
 	C= 25-20+2 \doteq 1 = 7:
 \end{equation}
 Mit $C=7<10$ liegt die Komplexität zwar unter der kritischen Grenze, ist für einen Code mit einer so simplen Aufgabe jedoch schon sehr hoch. 
+Da der Code zwei Mögliche Enden hat, eine Exception oder den Return, muss ein Exit Knoten eingeführt werden.
 
 
 
