@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7400 64-bit)  (format=lualatex 2020.6.19)  14 DEC 2020 14:36
-=======
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7400 64-bit)  (format=lualatex 2020.6.22)  14 DEC 2020 16:00
->>>>>>> Stashed changes
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7400 64-bit)  (format=lualatex 2020.6.22)  14 DEC 2020 16:11
  restricted system commands enabled.
 **Abgabe05_Gr49.tex
 (./Abgabe05_Gr49.tex
@@ -1133,9 +1129,6 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 \pdftexcmds@toks=\toks19
 )
-<<<<<<< Updated upstream
-("C:/Users/
-=======
 (C:/Users/magdi/AppData/Roaming/MiKTeX/2.9/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
@@ -2126,6 +2119,43 @@ i/AppData/Roaming/MiKTeX/2.9/tex/latex/tuda-ci/tuda_logo.pdf>] [2
 
 ]
 (./Einzelaufgaben/Abgabe05.1.tex
+LaTeX Font Info:    Font shape `TU/Roboto(0)/b/n' will be
+(Font)              scaled to size 20.74pt on input line 1.
+LaTeX Font Info:    Font shape `TU/Roboto(0)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 2.
+<FlowChart.pdf, id=21, 702.625pt x 1144.275pt>
+File: FlowChart.pdf Graphic file (type pdf)
+<use FlowChart.pdf>
+Package luatex.def Info: FlowChart.pdf  used on input line 9.
+(luatex.def)             Requested size: 409.72125pt x 667.27676pt.
+LaTeX Font Info:    Font shape `TU/RobotoSlab(0)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 10.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `RobotoSlab' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+LaTeX Warning: Float too large for page by 46.979pt on input line 12.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./Einzelaufgaben/Abgabe05.2.tex
+LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 1.
+LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 1.
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
+
+
+
+
+]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
+[2<./FlowChart.pdf>]
 chapter 1.
 
 Class scrreprt Warning: \float@addtolists detected!
@@ -2142,24 +2172,6 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface.
 
-LaTeX Font Info:    Font shape `TU/Roboto(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 1.
-) (./Einzelaufgaben/Abgabe05.2.tex
-LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 1.
-LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 1.
-LaTeX Font Info:    Font shape `TU/Roboto(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 1.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1
-
-
-
-
-]
-chapter 2.
 LaTeX Font Info:    Font shape `TU/RobotoMono(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 3.
 Package microtype Info: Loading generic protrusion settings for font family
@@ -2191,9 +2203,7 @@ Package TUDaPub Warning: You did not provide a Label for key discussion.
 (TUDaPub)                label using \IMRADlabel.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
-[2
+[3
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
@@ -2209,27 +2219,30 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
 )
 
 Here is how much of LuaTeX's memory you used:
- 33588 strings out of 480991
+ 33631 strings out of 480991
  100000,1977958 words of node,token memory allocated
- 3858 words of node memory still in use:
-   62 hlist, 8 vlist, 13 rule, 17 disc, 14 local_par, 4 math, 90 glue, 26 kern, 
-25 penalty, 2 margin_kern, 139 glyph, 158 attribute, 70 glue_spec, 86 attribute_
+ 3856 words of node memory still in use:
+   62 hlist, 8 vlist, 13 rule, 17 disc, 14 local_par, 4 math, 87 glue, 26 kern, 
+25 penalty, 2 margin_kern, 139 glyph, 163 attribute, 71 glue_spec, 88 attribute_
 list, 1 write, 20 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nod
 es
-   avail lists: 1:7,2:634,3:84,4:29,5:195,6:45,7:1153,8:10,9:221,10:5,11:75
- 50136 multiletter control sequences out of 65536+200000
- 143 fonts using 20318811 bytes
+   avail lists: 1:7,2:812,3:123,4:29,5:234,6:55,7:1500,8:32,9:305,10:5,11:114
+ 50163 multiletter control sequences out of 65536+200000
+ 144 fonts using 20488003 bytes
  79i,20n,124p,10158b,2281s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/users/magdi/appdata/roaming/miktex/2.9/fonts/opentype/google/roboto/robotomo
 no-regular.otf><c:/users/magdi/appdata/roaming/miktex/2.9/fonts/opentype/google/
-roboto/roboto-regular.otf><c:/users/magdi/appdata/roaming/miktex/2.9/fonts/opent
-ype/public/xcharter/xcharter-roman.otf><c:/users/magdi/appdata/roaming/miktex/2.
-9/fonts/opentype/public/xcharter/xcharter-bold.otf><c:/users/magdi/appdata/roami
-ng/miktex/2.9/fonts/opentype/google/roboto/roboto-bold.otf>
-Output written on Abgabe05_Gr49.pdf (4 pages, 538905 bytes).
+roboto/robotoslab-regular.otf><c:/users/magdi/appdata/roaming/miktex/2.9/fonts/o
+pentype/google/roboto/roboto-regular.otf><c:/users/magdi/appdata/roaming/miktex/
+2.9/fonts/opentype/public/xcharter/xcharter-roman.otf><c:/users/magdi/appdata/ro
+aming/miktex/2.9/fonts/opentype/public/xcharter/xcharter-bold.otf><c:/users/magd
+i/appdata/roaming/miktex/2.9/fonts/opentype/google/roboto/roboto-bold.otf><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Abgabe05_Gr49.pdf (5 pages, 577379 bytes).
 
-PDF statistics: 78 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 131072)
- 17 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 113 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 131072)
+ 19 words of extra memory for PDF output out of 10000 (max. 100000000)
 
->>>>>>> Stashed changes

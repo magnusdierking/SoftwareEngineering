@@ -14,6 +14,7 @@ Die Klasse \texttt{Book} ist direkt abhängig von:
 \section{}
 Die Kopplung ist mit 6 für eine so allgemein gebräuchliche Klasse wie \texttt{Book} sehr hoch.
 Änderungen in den all den anderen Klassen / Interfaces müssten in \texttt{Book} berücksichtigt werden. 
-Ein Buch kann als Objekt jedoch aus abseits einer Bibliotheks-Implementation oft Anwendung finden. 
+Ein Buch kann als Objekt jedoch auch abseits einer Bibliotheks-Implementation oft Anwendung finden, was eine Wiederverwendung sehr wahrscheinlich macht.
+\\ 
 Unter dem Aspekt des Responsibility-Driven Designs macht es zudem mehr Sinn, die nicht buch-spezifischen Funktionalitäten auszulagern.
 Unserer Ansicht nach wären getrennte Klassen für das Exportieren, das Buch mit seinen String-Attributen und für die bibliotheks-spezifischen Dinge wie Verfügbarkeit etc. wünschenswerter.  
