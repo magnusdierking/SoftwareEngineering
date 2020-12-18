@@ -27,7 +27,6 @@ Die Verantwortungen der Klasse \texttt{Book} sind:
  
  
 \section*{c}
-
 \lstset{language=Java,
 	showspaces=false,
 	showtabs=false,
@@ -149,3 +148,8 @@ return c.numberOfBorrowedBooks() < 3;
 
 \end{lstlisting}
 \section*{d} 
+Würde die beschrieben Methode implementiert werden, so ergäbe das \textbf{LCOM}-Verfahren stets einen niedrigeren Wert. Jede Methode die auf irgendein Attribut der Klasse zugreift wird durch die neue Methode in eine einzige Zusammenhangs-Komponente integriert.
+Lediglich Klassen, die kein Attribut direkt ansprechen wie \texttt{exportBookInfoAsCSV()} sind hiervon nicht betroffen.
+Unter diesen Umständen wäre ein Wert über 1 also inakzeptabel und würde sofortiges Refactoring nach sich ziehen. Für eine genauere Aussage über die Kohäsion müsste Debug-Methoden aber aus dem Graph entfernt werden, da sie die Aussagekraft des Ergebnisses stark senken. 
+
+
