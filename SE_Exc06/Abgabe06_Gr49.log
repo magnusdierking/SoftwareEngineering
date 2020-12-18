@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7400 64-bit)  (format=lualatex 2020.6.19)  18 DEC 2020 17:21
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7400 64-bit)  (format=lualatex 2020.6.19)  18 DEC 2020 17:29
  restricted system commands enabled.
 **Abgabe06_Gr49.tex
 (./Abgabe06_Gr49.tex
@@ -2281,13 +2281,13 @@ sty"
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
-put line 64.
+put line 63.
 LaTeX Font Info:    Font shape `TU/RobotoMono(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 64.
+(Font)              scaled to size 10.0pt on input line 63.
 LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 71.
+(Font)              scaled to size 10.0pt on input line 70.
 LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 71.
+(Font)              scaled to size 14.4pt on input line 70.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
@@ -2336,16 +2336,16 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
 )
 
 Here is how much of LuaTeX's memory you used:
- 33842 strings out of 480991
+ 33827 strings out of 480991
  100000,1977958 words of node,token memory allocated
  3926 words of node memory still in use:
    62 hlist, 8 vlist, 13 rule, 18 disc, 14 local_par, 4 math, 92 glue, 26 kern, 
 25 penalty, 1 margin_kern, 145 glyph, 158 attribute, 71 glue_spec, 86 attribute_
 list, 1 write, 20 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nod
 es
-   avail lists: 1:7,2:4604,3:203,4:1131,5:993,6:84,7:2479,8:51,9:3523,10:8,11:12
-9
- 50298 multiletter control sequences out of 65536+200000
+   avail lists: 1:7,2:4180,3:203,4:935,5:857,6:84,7:2168,8:51,9:3039,10:7,11:129
+
+ 50293 multiletter control sequences out of 65536+200000
  147 fonts using 21050587 bytes
  79i,21n,124p,10158b,2281s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/users/joni-/appdata/local/programs/miktex 2.9/fonts/opentype/google/roboto/r
@@ -2356,9 +2356,9 @@ pdata/local/programs/miktex 2.9/fonts/opentype/public/xcharter/xcharter-roman.ot
 f><c:/users/joni-/appdata/local/programs/miktex 2.9/fonts/opentype/public/xchart
 er/xcharter-bold.otf><c:/users/joni-/appdata/local/programs/miktex 2.9/fonts/ope
 ntype/google/roboto/roboto-bold.otf>
-Output written on Abgabe06_Gr49.pdf (6 pages, 568500 bytes).
+Output written on Abgabe06_Gr49.pdf (6 pages, 568051 bytes).
 
-PDF statistics: 181 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 131072)
+PDF statistics: 171 PDF objects out of 1000 (max. 8388607)
+ 85 named destinations out of 1000 (max. 131072)
  19 words of extra memory for PDF output out of 10000 (max. 100000000)
 

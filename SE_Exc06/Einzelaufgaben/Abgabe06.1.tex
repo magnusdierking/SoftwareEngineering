@@ -97,25 +97,15 @@ import org.library.users.Client;
 
 public class Reservation {
 
-private Client reservedFor;
-private Date reservedUntil;    
-private Book book;
-
-public Client getReservedFor() { return reservedFor; }
-public void setReservedFor(Client reservedFor) { this.reservedFor = reservedFor; }
-
-public Date getReservedUntil() { return reservedUntil; }
-public void setReservedUntil(Date until) { this.reservedUntil = until; }
-
-
-// prueft, ob Buch vom Kunden geliehen werden kann
-public boolean isAvailableFor(Client c, Date from) {
-if (reservedFor != null || reservedUntil.after(from)) {
-return false;
-}
-return c.numberOfBorrowedBooks() < 3;
-}
-
+	private Client reservedFor;
+	private Date reservedUntil;    
+	private Book book;
+	
+	public Reservation(Client reservedFor,Date reservedUntil, Book book){
+		this.reservedFor=reservedFor;
+		this.reservedUntil = reservedUntil;
+		this.book = book;
+	}
 }
 \end{lstlisting}
 
