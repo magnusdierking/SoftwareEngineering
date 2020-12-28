@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7400 64-bit)  (format=lualatex 2020.6.22)  18 DEC 2020 16:55
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7400 64-bit)  (format=lualatex 2020.6.22)  18 DEC 2020 17:06
  restricted system commands enabled.
 **Abgabe06_Gr49.tex
 (./Abgabe06_Gr49.tex
@@ -2165,11 +2165,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Font shape `TU/RobotoMono(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 61.
+(Font)              scaled to size 10.0pt on input line 62.
 LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 70.
+(Font)              scaled to size 10.0pt on input line 67.
 LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 70.
+(Font)              scaled to size 14.4pt on input line 67.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
@@ -2237,7 +2237,7 @@ ype/google/roboto/robotomono-regular.otf><c:/users/magdi/appdata/roaming/miktex/
 2.9/fonts/opentype/public/xcharter/xcharter-roman.otf><c:/users/magdi/appdata/ro
 aming/miktex/2.9/fonts/opentype/public/xcharter/xcharter-bold.otf><c:/users/magd
 i/appdata/roaming/miktex/2.9/fonts/opentype/google/roboto/roboto-bold.otf>
-Output written on Abgabe06_Gr49.pdf (5 pages, 563092 bytes).
+Output written on Abgabe06_Gr49.pdf (5 pages, 563882 bytes).
 
 PDF statistics: 145 PDF objects out of 1000 (max. 8388607)
  63 named destinations out of 1000 (max. 131072)
