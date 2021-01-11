@@ -23,8 +23,7 @@ Die Verantwortungen der Klasse \texttt{Book} sind:
 	\item Verwaltung der Daten Bezüglich der Ausleihe eines einzelnen Buches
 	\item Exportieren der Daten eines einzelnen Buches als csv-Datei
 \end{enumerate}
- Der ermittelte \textbf{LCOM}- Wert deckt sich also hier genau mit der Anzahl der Verantwortungen der Klasse. Die Einteilung Anzahl der Responsibilities = LCOM-Ergebnis ist sicherlich oft zutreffend, bei sehr schlechtem Code muss sie aber auch nicht zwangsläufig zutreffen. Mehrere Verantwortungen können sich durchaus überschneiden (sollten es aber generell nicht)
- oder die Methoden einzelner Verantwortungen können auch in keinerlei Bezug stehen (ebenfalls zu vermeiden).
+ Der ermittelte \textbf{LCOM}- Wert deckt sich also hier genau mit der Anzahl der Verantwortungen der Klasse.
  
  
 \section*{c}
@@ -91,24 +90,6 @@ public class Book implements LibraryItem {
 }
 \end{lstlisting}
 
-%\begin{lstlisting}[	caption = {Klasse Reservation}]
-%package org.library;
-%import java.util.Date;
-%import org.library.users.Client;
-%
-%public class Reservation {
-%
-%	private Client reservedFor;
-%	private Date reservedUntil;    
-%	private Book book;
-%	
-%	public Reservation(Client reservedFor,Date reservedUntil, Book book){
-%		this.reservedFor=reservedFor;
-%		this.reservedUntil = reservedUntil;
-%		this.book = book;
-%	}
-%}
-%\end{lstlisting}
 
 \begin{lstlisting}[caption = {RerservationManager}]
 	package org.library;
@@ -119,7 +100,6 @@ public class Book implements LibraryItem {
 	
 	private Client reservedFor;
 	private Date reservedUntil;   	
-	private Book book;
 	
 	public Client getReservedFor() { return reservedFor; }
 	public void setReservedFor(Client reservedFor) { this.reservedFor = reservedFor; }
@@ -128,8 +108,7 @@ public class Book implements LibraryItem {
 	public void setReservedUntil(Date until) { this.reservedUntil = until; }
 	
 	
-	public static boolean isAvailableFor(Client c, Date from,Book book) {
-	if(this.book != book ) return;
+	public static boolean isAvailableFor(Client c, Date from) {
 	if (reservedFor != null || reservedUntil.after(from)) {
 	return false;
 	}
