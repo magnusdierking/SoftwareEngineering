@@ -90,24 +90,24 @@ public class Book implements LibraryItem {
 }
 \end{lstlisting}
 
-\begin{lstlisting}[	caption = {Klasse Reservation}]
-package org.library;
-import java.util.Date;
-import org.library.users.Client;
-
-public class Reservation {
-
-	private Client reservedFor;
-	private Date reservedUntil;    
-	private Book book;
-	
-	public Reservation(Client reservedFor,Date reservedUntil, Book book){
-		this.reservedFor=reservedFor;
-		this.reservedUntil = reservedUntil;
-		this.book = book;
-	}
-}
-\end{lstlisting}
+%\begin{lstlisting}[	caption = {Klasse Reservation}]
+%package org.library;
+%import java.util.Date;
+%import org.library.users.Client;
+%
+%public class Reservation {
+%
+%	private Client reservedFor;
+%	private Date reservedUntil;    
+%	private Book book;
+%	
+%	public Reservation(Client reservedFor,Date reservedUntil, Book book){
+%		this.reservedFor=reservedFor;
+%		this.reservedUntil = reservedUntil;
+%		this.book = book;
+%	}
+%}
+%\end{lstlisting}
 
 \begin{lstlisting}[caption = {RerservationManager}]
 	package org.library;
@@ -116,8 +116,19 @@ public class Reservation {
 	
 	public class RerservationManager {
 	
-
-	public static boolean isAvailableFor(Client c, Date from) {
+	private Client reservedFor;
+	private Date reservedUntil;   	
+	private Book book;
+	
+	public Client getReservedFor() { return reservedFor; }
+	public void setReservedFor(Client reservedFor) { this.reservedFor = reservedFor; }
+	
+	public Date getReservedUntil() { return reservedUntil; }
+	public void setReservedUntil(Date until) { this.reservedUntil = until; }
+	
+	
+	public static boolean isAvailableFor(Client c, Date from,Book book) {
+	if(this.book != book ) return;
 	if (reservedFor != null || reservedUntil.after(from)) {
 	return false;
 	}

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7400 64-bit)  (format=lualatex 2020.6.19)  18 DEC 2020 17:29
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7400 64-bit)  (format=lualatex 2020.6.19)  11 JAN 2021 10:55
  restricted system commands enabled.
 **Abgabe06_Gr49.tex
 (./Abgabe06_Gr49.tex
@@ -2336,16 +2336,16 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
 )
 
 Here is how much of LuaTeX's memory you used:
- 33827 strings out of 480991
+ 33825 strings out of 480991
  100000,1977958 words of node,token memory allocated
- 3926 words of node memory still in use:
-   62 hlist, 8 vlist, 13 rule, 18 disc, 14 local_par, 4 math, 92 glue, 26 kern, 
-25 penalty, 1 margin_kern, 145 glyph, 158 attribute, 71 glue_spec, 86 attribute_
+ 3933 words of node memory still in use:
+   62 hlist, 8 vlist, 13 rule, 18 disc, 14 local_par, 4 math, 92 glue, 28 kern, 
+25 penalty, 2 margin_kern, 144 glyph, 158 attribute, 71 glue_spec, 86 attribute_
 list, 1 write, 20 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nod
 es
-   avail lists: 1:7,2:4180,3:203,4:935,5:857,6:84,7:2168,8:51,9:3039,10:7,11:129
-
- 50293 multiletter control sequences out of 65536+200000
+   avail lists: 1:7,2:4726,3:201,4:1142,5:1049,6:83,7:2514,8:50,9:3670,10:8,11:1
+29
+ 50297 multiletter control sequences out of 65536+200000
  147 fonts using 21050587 bytes
  79i,21n,124p,10158b,2281s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/users/joni-/appdata/local/programs/miktex 2.9/fonts/opentype/google/roboto/r
@@ -2356,9 +2356,9 @@ pdata/local/programs/miktex 2.9/fonts/opentype/public/xcharter/xcharter-roman.ot
 f><c:/users/joni-/appdata/local/programs/miktex 2.9/fonts/opentype/public/xchart
 er/xcharter-bold.otf><c:/users/joni-/appdata/local/programs/miktex 2.9/fonts/ope
 ntype/google/roboto/roboto-bold.otf>
-Output written on Abgabe06_Gr49.pdf (6 pages, 568051 bytes).
+Output written on Abgabe06_Gr49.pdf (6 pages, 567169 bytes).
 
-PDF statistics: 171 PDF objects out of 1000 (max. 8388607)
- 85 named destinations out of 1000 (max. 131072)
+PDF statistics: 165 PDF objects out of 1000 (max. 8388607)
+ 79 named destinations out of 1000 (max. 131072)
  19 words of extra memory for PDF output out of 10000 (max. 100000000)
 
