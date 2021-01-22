@@ -1,15 +1,15 @@
 \chapter{Systematisches Testen von Methoden}
 \section{Branch-Coverage}
 \begin{center}
-	\begin{tabular}{ c c }
+	\begin{tabular}{ c  c }
 		\hline
 		Testeingabe & Erwartetes Ergebnis/Exception \\
 		\hline 
-		&    \\  
-		&    \\   
-		&    \\
-		&    \\
-		&   
+		hexDigitSum(null) & NullPointerException   \\  
+		hexDigitSum() & 0   \\   
+		hexDigitSum(G) & -1   \\
+		hexDigitSum(3) & 3   \\
+		hexDigitSum(B) &  11  \\
 	\end{tabular}
 \end{center}
 
@@ -20,10 +20,11 @@
 		\hline
 		Testeingabe & Erwartetes Ergebnis/Exception \\
 		\hline 
-		&    \\  
-		&    \\   
-		&    \\
-		&    \\
-		&   
+		hexDigitSum() &  0  \\  
+		hexDigitSum(5) &  5  \\   
+		hexDigitSum(B) &  11  \\
+		hexDigitSum(G) &   -1 \\
+		hexDigitSum(=) &   -1 \\
+		hexDigitSum(\%) &  -1
 	\end{tabular}
 \end{center}
