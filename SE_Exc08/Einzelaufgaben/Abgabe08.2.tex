@@ -1,3 +1,36 @@
+\lstset{language=Java,
+	showspaces=false,
+	showtabs=false,
+	breaklines=true,
+	showstringspaces=false,
+	breakatwhitespace=true,
+}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{	
+	frame=tb,
+	language=Java,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3,
+	backgroundcolor=\color{black!5},
+	numbers=left, stepnumber=1, numberstyle = \tiny
+	% set backgroundcolor
+}
+
 \chapter{MCDC Testabdeckung}
 \section{a)}
 \begin{center}
@@ -9,8 +42,21 @@
 		 hexaDigitSum(7)& true & false & false & true & false & true  
 	\end{tabular}
 \end{center}
-%% ?????????????????????????????????????????????????????????????
 
 \section{b)}
+
+\begin{lstlisting}[caption = {Conditions der aufgabe 2b}]
+if(
+   currNum<0 |    // Condition c1
+   (currNum>=0 &   // Condition c2
+   ((currNum>9 &  // Condition c3
+   currNum<'A'    // Condition c4
+   )|
+   currNum>'F'))    // Condition c5
+)
+\end{lstlisting}
+
+Angenommen wir wollen die MCDC für c = c3 anwenden. Da die Decision einmal Wahr und einmal Falsch sein soll, aber die restlichen Conditions gleich bleiben sollen,
+müssen die Oder-Verknüpften Conditions Falsch und die Und-Verknüpften Wahr ergeben. Also muss C1 = Wahr und C2= Falsch gelten. Dies ist jedoch ein Widerspruch, da sie einander disjunkte Ereignisse darstellen. Mit Hilfe des Widerspruches ist also bewiesen, dass dies nicht für alle Conditions möglich ist.
 
 
